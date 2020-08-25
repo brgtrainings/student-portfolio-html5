@@ -1,0 +1,199 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Util Classes */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  padding: 0 20px;
+}
+.section-padding {
+  padding: 60px 0;
+}
+.text-center {
+  text-align: center;
+}
+.width_80 {
+  width: 80%;
+}
+.width_70 {
+  width: 70%;
+}
+.width_60 {
+  width: 60%;
+}
+
+/* Main CSS */
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Navbar */
+nav {
+  background: #444;
+  color: #fff;
+  overflow: auto;
+}
+nav a {
+  color: #fff;
+}
+nav h1 {
+  float: left;
+  padding-top: 20px;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul li a:hover, nav ul li a.active {
+  background: #555;
+  color: orange;
+}
+
+/* Introduction */
+#intro .profile, #intro .intro-body {
+  text-align: center;
+}
+#intro .profile img {
+  height: 150px;
+  width: auto;
+}
+#intro .intro-body h1 {
+  padding-bottom: 5px;
+}
+
+#intro .social-links a {
+  margin-right: 0.5rem;
+}
+
+/* About */
+#about {
+  background-color: #eee;
+  overflow: auto;
+}
+#about header h1 {
+  font-size: 2rem;
+}
+#about .about-content > div {
+  width: 50%;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+/* About left column */
+#about .about-content .column1 {
+  float: left;
+}
+#about .about-content p {
+  margin-top: 0;
+}
+#about .about-content .skills {
+  margin-top: 20px;
+}
+#about .about-content .skills .skill-item {
+  background-color: orange;
+  height: 25px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  font-size: 13px;
+}
+/* About right column */
+#about .about-content .column2 {
+  float: right;
+}
+#about .about-content .column2 h3 {
+  padding-bottom: 10px;
+}
+#about .about-content .education-grid .education-item {
+  margin-bottom: 30px;
+}
+#about .about-content .education-grid .education-item .year {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+#about .about-content .education-grid .education-item h3 {
+  padding: 0;
+  margin-bottom: 5px;
+  line-height: 1;
+  font-weight: 700;
+}
+#about .about-content .education-grid .education-item h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Blogs */
+#blogs header h1 {
+  font-size: 2rem;
+}
+#blogs .column {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px;
+}
+#blogs .blogs-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#blogs .blogs-content .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+#blogs .blogs-content .card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+#blogs .blogs-content .card .blog-body {
+  padding: 10px 20px;
+}
+#blogs .blogs-content .card .blog-body .blog-title {
+  padding-bottom: 5px;
+}
+#blogs .blogs-content .card .blog-body .meta {
+  font-size: 13px;
+  color: #666;
+}
+#blogs .blogs-content .card .blog-body .blog-text {
+  font-size: 14px;
+  color: #444;
+  line-height: 20px;
+}
+#blogs .blogs-content .card .blog-body .blog-text a {
+  color: darkorange;
+}
+
+/* footer */
+footer {
+  background: #ccc;
+  padding: 20px;
+}
