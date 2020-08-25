@@ -26,6 +26,10 @@
 .width_60 {
   width: 60%;
 }
+figcaption {
+  font-size: 12px;
+  text-align: center;
+}
 
 /* Main CSS */
 html, body {
