@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+
+    <!-- Use below if favicon image doesn't show up in Chrome -->
+    <!-- <link rel="shortcut icon" href="img/favicon.ico?v=2" type="image/x-icon" /> -->
+
+    <!-- Use below if you have icon in .png format -->
+    <!-- <link rel="shortcut icon" href="img/favicon.png" type="image/png" /> -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- Navbar -->
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="#home">Student Foo</a></h1>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="blog" class="section-padding">
+      <div class="container">
+        <header>
+          <h1 class="text-center">Rise of HTML5, what are the features of HTML5?</h1>
+        </header>
+        <div class="blog-body">
+          <div class="meta">
+            <span><i class="fas fa-calendar-alt"></i> 26th Aug, 2020</span>
+            <span><i class="fas fa-clock"></i> ~4 mins</span>
+          </div>
+          <hr>
+          <div class="blog-text">
+            <h2>Overview</h2>
+            <p>
+              HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
+              It is the fifth and latest major version of HTML that is a World Wide Web Consortium (W3C) recommendation.
+              The current specification is known as the HTML Living Standard and is maintained by a consortium of the
+              major browser vendors (Apple, Google, Mozilla, and Microsoft).
+            </p>
+
+            <p>
+            HTML5 was first released in public-facing form on 22 January 2008, with a major update and
+            "W3C Recommendation" status in October 2014. Its goals were to improve the language with
+            support for the latest multimedia and other new features; to keep the language both easily readable
+            by humans and consistently understood by computers and devices such as web browsers, parsers, etc.
+            </p>
+
+            <h2>Video Element</h2>
+            <p>
+              The HTML Video element (<code>&lt;video&gt;</code>) embeds a media player which supports video playback into the web page.
+              You can add video by using <code>&lt;video&gt;</code> element as below:
+            </p>
+
+            <pre>
+              <code>
+  &lt;video controls width="250"&gt;
+    &lt;source src="medias/flower.webm" type="video/webm"&gt;
+    Sorry, your browser doesn't support embedded videos.
+  &lt;/video&gt;</code>
+            </pre>
+
+            <p>
+              It should results as:
+            </p>
+
+            <video controls width="400">
+              <source src="../medias/flower.webm" type="video/webm">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+
+            <p>
+              Click <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank">here</a> to know more about it.</strong>
+            </p>
+
+            <h2>Audio Element</h2>
+            <p>
+              The HTML <code>&lt;audio&gt;</code> element is used to embed sound content in the web page.
+              It may contain one or more audio sources, represented using the <strong>src</strong> attribute or the
+              <code>&lt;source&gt;</code> element: the browser will choose the most suitable one.
+            </p>
+
+            <p>
+              You can add video by using <code>&lt;video&gt;</code> element as below:
+            </p>
+
+            <pre>
+              <code>
+    &lt;audio controls src="medias/t-rex-roar.mp3"&gt;
+      Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.
+    &lt;/audio&gt;</code>
+            </pre>
+
+            <p>
+              It should results as:
+            </p>
+
+            <audio controls src="../medias/t-rex-roar.mp3">
+              Your browser does not support the <code>audio</code> element.
+            </audio>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="text-center">&copy; Student Foo 2020</div>
+    </footer>
+  </body>
+</html>
